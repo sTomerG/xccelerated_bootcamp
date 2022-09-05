@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "roman_numeral_converter"
+version = "0.0.1"
+description = "My package"
+readme = "README.md"
+requires-python = ">=3.7"
+
+
+[project.entry-points]
+console_scripts = {"roman_converter" = "roman_numeral_converter.cli:convert"} 
+
