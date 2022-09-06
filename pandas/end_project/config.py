@@ -1,0 +1,9 @@
+FILENAME: str = "wowah_data.csv"
+DATECOLUMN: list = "timestamp"
+DATEFORMAT: str = "%m/%d/%y %X"
+TIME_DIFF_SIZE: int = 1
+TIME_DIFF_UNIT: str = "s"  # s for seconds
+GROUPBY_COL: str = "char"
+MAX_SESSION_BREAK_SECS: int = 60 * 30
+MAX_LEVEL: int = 60
+STD_OUTLIER: int = 3
