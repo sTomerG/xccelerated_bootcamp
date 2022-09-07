@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fast-api-xcc"
+authors = [
+  { name="Tomer Gabay", email="tomergabay001@gmail.com" },
+]
+license = "MIT"
+version = "0.0.1"
+description = "My package"
+readme = "README.md"
+requires-python = ">~3.10"
+dependencies = [
+    "fastapi >= 0.82.0, < 1",
+    "uvicorn >= 0.18.3, < 1",
+    "pydantic >= 1.10.2 < 2"
+]
+
+
+
