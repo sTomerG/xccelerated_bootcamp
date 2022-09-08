@@ -1,0 +1,6 @@
+# Instructions
+
+`docker compose up`
+
+
+
